@@ -38,6 +38,11 @@
                             (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button type="button" class="open-menu-btn">
+                <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+                </svg>
+            </button>
         </div>
 
     </header>
@@ -55,7 +60,7 @@
             <div class="container">
                 <h2 class="visually-hidden">Strategy</h2>
                 <ul class="strategy-list">
-                    <li>
+                    <li class="strategy-title">
                         <div class="strategy-item">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-antenna-1"></use>
@@ -66,7 +71,7 @@
                             problem to walk away with the perfect and creative solution.
                         </p>
                     </li>
-                    <li>
+                    <li class="strategy-title">
                         <div class="strategy-item">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-clock-1"></use>
@@ -79,7 +84,7 @@
                             time.
                         </p>
                     </li>
-                    <li>
+                    <li class="strategy-title">
                         <div class="strategy-item">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-diagram-1"></use>
@@ -92,7 +97,7 @@
                             risk.
                         </p>
                     </li>
-                    <li>
+                    <li class="strategy-title">
                         <div class="strategy-item">
                             <svg width="64" height="64">
                                 <use href="./images/icons.svg#icon-astronaut-1"></use>
@@ -365,43 +370,46 @@
 
     <footer class="end">
         <div class="container footer-container">
-            <div class="end-container">
-                <a class="end-logo" href="./index.html">Web<span class="logo-studio">Studio</span></a>
-                <p class="end-text">Increase the flow of customers and sales for your business with digital marketing &
-                    growth solutions.</p>
-            </div>
-            <div>
-                <p class="end-soc">Social media</p>
-                <ul class="end-soc-list">
-                    <li class="end-soc-link">
-                        <a href="" target="_blank" class="end-soc-icon">
-                            <svg width="24" height="24" class="end-soc-svg">
-                                <use href="./images/icons.svg#icon-instagram-2"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="end-soc-link">
-                        <a href="" target="_blank" class="end-soc-icon">
-                            <svg width="24" height="24" class="end-soc-svg">
-                                <use href="./images/icons.svg#icon-twitter-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="end-soc-link">
-                        <a href="" target="_blank" class="end-soc-icon">
-                            <svg width="24" height="24" class="end-soc-svg">
-                                <use href="./images/icons.svg#icon-facebook-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="end-soc-link">
-                        <a href="" target="_blank" class="end-soc-icon">
-                            <svg width="24" height="24" class="end-soc-svg">
-                                <use href="./images/icons.svg#icon-linkedin-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+            <div class="footer-soc">
+                <div class="end-container">
+                    <a class="end-logo" href="./index.html">Web<span class="logo-studio">Studio</span></a>
+                    <p class="end-text">Increase the flow of customers and sales for your business with digital
+                        marketing &
+                        growth solutions.</p>
+                </div>
+                <div class="footer-end">
+                    <p class="end-soc">Social media</p>
+                    <ul class="end-soc-list">
+                        <li class="end-soc-link">
+                            <a href="" target="_blank" class="end-soc-icon">
+                                <svg width="24" height="24" class="end-soc-svg">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="end-soc-link">
+                            <a href="" target="_blank" class="end-soc-icon">
+                                <svg width="24" height="24" class="end-soc-svg">
+                                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="end-soc-link">
+                            <a href="" target="_blank" class="end-soc-icon">
+                                <svg width="24" height="24" class="end-soc-svg">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="end-soc-link">
+                            <a href="" target="_blank" class="end-soc-icon">
+                                <svg width="24" height="24" class="end-soc-svg">
+                                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="footer-container-form">
                 <p class="footer-text">Subscribe</p>
@@ -418,7 +426,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
         <div class="modal">
             <button type="button" class="modal-close-btn">
                 <svg width="8" height="8" class="modal-close-svg">
@@ -474,7 +482,7 @@
                 <button type="submit" class="modal-btn">Send</button>
             </form>
         </div>
-    </div>
+    </div> -->
 </body>
 
 </html>
