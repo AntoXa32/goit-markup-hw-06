@@ -145,6 +145,17 @@ img {
     margin: 0 auto;
 }
 
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .menu {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/office-fone-2x.jpg);
+    }
+}
+
 .menu-title {
     color: #FFF;
     text-align: center;
@@ -859,6 +870,17 @@ img {
             url(../images/ofice-tablet.jpg);
     }
 
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .menu {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/office-tablet-2x.jpg);
+        }
+    }
+
     .menu-title {
         max-width: 496px;
         font-size: 56px;
@@ -1003,6 +1025,17 @@ img {
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/people-office.jpg);
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+        .menu {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/people-office-2x.jpg);
+        }
     }
 
     .menu-title {
