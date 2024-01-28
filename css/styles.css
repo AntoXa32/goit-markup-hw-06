@@ -52,6 +52,7 @@ img {
 }
 
 .header-container {
+    align-items: center;
     display: flex;
     justify-content: space-between;
 }
@@ -805,6 +806,7 @@ img {
     }
 
     .manual-link {
+        display: block;
         color: #2E2F42;
         font-size: 16px;
         font-weight: 500;
@@ -843,8 +845,7 @@ img {
         display: flex;
         flex-direction: column;
         gap: 12px;
-        padding-top: 16px;
-        padding-bottom: 16px;
+
     }
 
     .adress-link {
