@@ -130,6 +130,8 @@ img {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .close-menu-btn {
@@ -163,11 +165,14 @@ img {
     fill: #ffffff;
 }
 
+.mob-nav {
+    margin-bottom: auto;
+}
+
 .mob-nav-list {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-bottom: 168px;
 }
 
 .mob-link-col {
@@ -175,7 +180,7 @@ img {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -654,7 +659,6 @@ img {
     background-color: rgba(46, 47, 66, 0.40);
     opacity: 0;
     visibility: hidden;
-    position: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

@@ -12,7 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -44,7 +44,7 @@
                 </svg>
             </button>
         </div>
-        <div class="mob-menu">
+        <div class="mob-menu is-open">
             <button type="button" class="close-menu-btn">
                 <svg width="8" height="8" class="mob-close-svg">
                     <use href="./images/icons.svg#icon-close-black"></use>
@@ -57,43 +57,45 @@
                     <li><a href="" class="mob-link">Contacts</a></li>
                 </ul>
             </nav>
-            <ul class="mob-adress-list">
-                <li><a class="mob-tel-link" href="tel:+110001111111" target="_blank" rel="noopener noreferrer">+11
-                        (000) 111-11-11</a></li>
-                <li><a class="mob-mail-link" href="mailto:info@devstudio.com" target="_blank"
-                        rel="noopener noreferrer">info@devstudio.com</a>
-                </li>
-            </ul>
-            <ul class="mob-soc-list">
-                <li class="soc-link">
-                    <a href="" target="_blank" class="soc-icon">
-                        <svg width="16" height="16" class="soc-subject-svg">
-                            <use href="./images/icons.svg#icon-instagram-2"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="soc-link">
-                    <a href="" target="_blank" class="soc-icon">
-                        <svg width="16" height="16" class="soc-subject-svg">
-                            <use href="./images/icons.svg#icon-twitter-1"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="soc-link">
-                    <a href="" target="_blank" class="soc-icon">
-                        <svg width="16" height="16" class="soc-subject-svg">
-                            <use href="./images/icons.svg#icon-facebook-1"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="soc-link">
-                    <a href="" target="_blank" class="soc-icon">
-                        <svg width="16" height="16" class="soc-subject-svg">
-                            <use href="./images/icons.svg#icon-linkedin-1"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+            <div>
+                <ul class="mob-adress-list">
+                    <li><a class="mob-tel-link" href="tel:+110001111111" target="_blank" rel="noopener noreferrer">+11
+                            (000) 111-11-11</a></li>
+                    <li><a class="mob-mail-link" href="mailto:info@devstudio.com" target="_blank"
+                            rel="noopener noreferrer">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="mob-soc-list">
+                    <li class="soc-link">
+                        <a href="" target="_blank" class="soc-icon">
+                            <svg width="16" height="16" class="soc-subject-svg">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="soc-link">
+                        <a href="" target="_blank" class="soc-icon">
+                            <svg width="16" height="16" class="soc-subject-svg">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="soc-link">
+                        <a href="" target="_blank" class="soc-icon">
+                            <svg width="16" height="16" class="soc-subject-svg">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="soc-link">
+                        <a href="" target="_blank" class="soc-icon">
+                            <svg width="16" height="16" class="soc-subject-svg">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -335,15 +337,15 @@
                         <div class="portfolio-selers-content">
                             <picture>
                                 <source srcset="./images/banking.jpg    1x, ./images/banking-2x.jpg 2x
-                                                  " media="(min-width: 1158px)" />
+                                                  " media="(min-width: 1158px)">
                                 <source srcset="
                                                     ./images/banking-tablet.jpg    1x,
                                                     ./images/banking-tablet-2x.jpg 2x
-                                                  " media="(min-width: 768px)" />
+                                                  " media="(min-width: 768px)">
                                 <source srcset="
                                                     ./images/banking-mobil.jpg    1x,
                                                     ./images/banking-mobil-2x.jpg 2x
-                                                  " media="(max-width: 767px)" />
+                                                  " media="(max-width: 767px)">
                                 <img class="menu-portfolio-image" src="./images/banking.jpg" width="360" height="300"
                                     alt="Photo Banking App">
                             </picture>
@@ -364,15 +366,15 @@
                             <picture>
                                 <source srcset="./images/cashless.jpg   
                                  1x, ./images/cashless-2x.jpg 2x
-                                                                              " media="(min-width: 1158px)" />
+                                                                              " media="(min-width: 1158px)">
                                 <source srcset="
                                                                                 ./images/cashless-tablet.jpg    1x,
                                                                                 ./images/cashless-tablet-2x.jpg 2x
-                                                                              " media="(min-width: 768px)" />
+                                                                              " media="(min-width: 768px)">
                                 <source srcset="
                                                                                 ./images/cashless-mobil.jpg    1x,
                                                                                 ./images/cashless-mobil-2x.jpg 2x
-                                                                              " media="(max-width: 767px)" />
+                                                                              " media="(max-width: 767px)">
                                 <img class="menu-portfolio-image" src="./images/cashless.jpg" width="360" height="300"
                                     alt="Photo Cashless Payment">
                             </picture>
@@ -394,17 +396,17 @@
                                 ./images/meditation.jpg
                                  1x, ./images/meditation-2x.jpg 2x
                                                                                                           "
-                                    media="(min-width: 1158px)" />
+                                    media="(min-width: 1158px)">
                                 <source srcset="
                                                                                                             ./images/meditation-tablet.jpg    1x,
                                                                                                             ./images/meditation-tablet-2x.jpg 2x
                                                                                                           "
-                                    media="(min-width: 768px)" />
+                                    media="(min-width: 768px)">
                                 <source srcset="
                                                                                                             ./images/meditation-mobil.jpg    1x,
                                                                                                             ./images/meditation-mobil-2x.jpg 2x
                                                                                                           "
-                                    media="(max-width: 767px)" />
+                                    media="(max-width: 767px)">
                                 <img class="menu-portfolio-image" src="./images/meditation.jpg" width="360" height="300"
                                     alt="Photo Meditation App">
                             </picture>
@@ -426,19 +428,19 @@
                                                             ./images/taxi.jpg
                                                              1x, ./images/taxi-2x.jpg 2x
                                                                                                                                       "
-                                    media="(min-width: 1158px)" />
+                                    media="(min-width: 1158px)">
                                 <source
                                     srcset="
                                                                                                                                         ./images/taxi-tablet.jpg    1x,
                                                                                                                                         ./images/taxi-tablet-2x.jpg 2x
                                                                                                                                       "
-                                    media="(min-width: 768px)" />
+                                    media="(min-width: 768px)">
                                 <source
                                     srcset="
                                                                                                                                         ./images/taxi-mobil.jpg    1x,
                                                                                                                                         ./images/taxi-mobil-2x.jpg 2x
                                                                                                                                       "
-                                    media="(max-width: 767px)" />
+                                    media="(max-width: 767px)">
                                 <img class="menu-portfolio-image" src="./images/taxi.jpg" width="360" height="300"
                                     alt="Photo Taxi Service">
                             </picture>
@@ -461,19 +463,19 @@
                                                                                          1x, ./images/screen-2x.jpg 2x
                                                                                         
                                                                                                                                                                   "
-                                    media="(min-width: 1158px)" />
+                                    media="(min-width: 1158px)">
                                 <source
                                     srcset="
                                                                                                                                                                     ./images/screen-tablet.jpg    1x,
                                                                                                                                                                     ./images/screen-tablet-2x.jpg 2x
                                                                                                                                                                   "
-                                    media="(min-width: 768px)" />
+                                    media="(min-width: 768px)">
                                 <source
                                     srcset="
                                                                                                                                                                     ./images/screen-mobil.jpg    1x,
                                                                                                                                                                     ./images/screen-mobil-2x.jpg 2x
                                                                                                                                                                   "
-                                    media="(max-width: 767px)" />
+                                    media="(max-width: 767px)">
                                 <img class="menu-portfolio-image" src="./images/screen.jpg" width="360" height="300"
                                     alt="Photo Screen Illustrations">
                             </picture>
@@ -496,19 +498,19 @@
                                                                                                                      1x, ./images/online-2x.jpg 2x
                                                                                                                     
                                                                                                                                                                                               "
-                                    media="(min-width: 1158px)" />
+                                    media="(min-width: 1158px)">
                                 <source
                                     srcset="
                                                                                                                                                                                                 ./images/online-tablet.jpg    1x,
                                                                                                                                                                                                 ./images/online-tablet-2x.jpg 2x
                                                                                                                                                                                               "
-                                    media="(min-width: 768px)" />
+                                    media="(min-width: 768px)">
                                 <source
                                     srcset="
                                                                                                                                                                                                 ./images/online-mobil.jpg    1x,
                                                                                                                                                                                                 ./images/online-mobil-2x.jpg 2x
                                                                                                                                                                                               "
-                                    media="(max-width: 767px)" />
+                                    media="(max-width: 767px)">
                                 <img class="menu-portfolio-image" src="./images/online.jpg" width="360" height="300"
                                     alt="Photo Online Courses">
                             </picture>
@@ -598,7 +600,7 @@
                 <div class="modal-field">
                     <label for="user-name" class="modal-label">Name</label>
                     <div class="modal-input-wrap">
-                        <input type="text" name="user-name" class="modal-input" id="user-name" />
+                        <input type="text" name="user-name" class="modal-input" id="user-name">
                         <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-person-black"></use>
                         </svg>
@@ -607,7 +609,7 @@
                 <div class="modal-field">
                     <label for="user-mail" class="modal-label">Phone</label>
                     <div class="modal-input-wrap">
-                        <input type="tel" name="user-mail" class="modal-input" id="user-mail" />
+                        <input type="tel" name="user-mail" class="modal-input" id="user-mail">
                         <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-phone-black"></use>
                         </svg>
@@ -616,7 +618,7 @@
                 <div class="modal-field">
                     <label for="user-tel" class="modal-label">Email</label>
                     <div class="modal-input-wrap">
-                        <input type="email" name="user-tel" class="modal-input" id="user-tel" />
+                        <input type="email" name="user-tel" class="modal-input" id="user-tel">
                         <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-email-black"></use>
                         </svg>
@@ -629,7 +631,7 @@
                 </div>
                 <div class="modal-field-check">
                     <input type="checkbox" name="user-privacy" id="user-privacy" value="true"
-                        class="check-input visually-hidden" />
+                        class="check-input visually-hidden">
                     <label for="user-privacy" class="check-text">
                         <span class="check-privacy">
                             <svg class="check-icon" width="10" height="8">
