@@ -807,18 +807,14 @@ img {
     margin-bottom: 24px;
 }
 
-.check-text-input {
-    width: 231px;
-}
-
 .check-policy {
     color: #4D5AE5;
     text-decoration-line: underline;
-    margin-left: 5px;
 }
 
 .check-privacy {
     display: inline-flex;
+    padding: 2px;
     width: 16px;
     height: 16px;
     border-radius: 2px;
