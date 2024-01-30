@@ -132,6 +132,7 @@ img {
     pointer-events: none;
     display: flex;
     flex-direction: column;
+    z-index: 999;
 }
 
 .close-menu-btn {
